@@ -1,8 +1,8 @@
 .code32
 .section .init
-    pop %rax    
+    pop %eax
     ret
 
 .section .fini
-    pop %rax
+    pop %eax
     ret
