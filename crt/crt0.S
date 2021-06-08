@@ -1,10 +1,10 @@
 .global _start
 
-.extern __g_main
-.extern g_exit
+.extern __ismenaos_main
+.extern ismenaos_exit
 
 _start:
-    call __g_main
+    call __ismenaos_main
 
 wait:
     hlt
