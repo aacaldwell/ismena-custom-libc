@@ -1,7 +1,7 @@
 .section .init
-    pop $eax
+    pop %rax    
     ret
 
 .section .fini
-    pop %eax
+    pop %rax
     ret
