@@ -1,3 +1,4 @@
+.code32
 .section .init
     pop %rax    
     ret
